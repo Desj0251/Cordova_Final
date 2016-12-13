@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.desj0251.Cordova_Final" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>DESJ0251_Cordova_Final</name>
+    <description>
+        A sample fake sports app that retrieves data from an offsite server.
+    </description>
+    <author email="desj0251@algonquinlive.com" href="http://github.io">
+        John Desjardins desj0251
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/android/ldpi.png" />
+    <icon density="mdpi" src="res/android/mdpi.png" />
+    <icon density="hdpi" src="res/android/hdpi.png" />
+    <icon density="xhdpi" src="res/android/xhdpi.png" />
+    <icon density="xxhdpi" src="res/android/xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/android/xxxhdpi.png" />
+    <splash src="res/android/screen-hdpi-portrait.png" />
+    <splash src="res/android/screen-ldpi-landscape.png" />
+    <splash src="res/android/screen-ldpi-portrait.png" />
+    <splash src="res/android/screen-hdpi-landscape.png" />
+    <splash src="res/android/screen-mdpi-landscape.png" />
+    <splash src="res/android/screen-mdpi-portrait.png" />
+    <splash src="res/android/screen-xhdpi-landscape.png" />
+    <splash src="res/android/screen-xhdpi-portrait.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="2500" />
+</widget>
